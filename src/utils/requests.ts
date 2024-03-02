@@ -1,7 +1,7 @@
-import got from "got";
+import got from 'got';
 
 const request = got.extend({
-  prefixUrl: "https://data.dbmovies.org",
+  prefixUrl: 'https://data.dbmovies.org',
 });
 
 export default request;
